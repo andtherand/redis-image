@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FROM mychiara/docker-webbase
+FROM mychiara/base
 MAINTAINER Andy Ruck mychiara+docker@gmail.com
 
 RUN apt-get update && \
