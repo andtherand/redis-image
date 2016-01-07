@@ -1,3 +1,3 @@
 # Redis image
-This is basic redis image derived from my base image.
+This is a basic redis image derived from my base image.
 

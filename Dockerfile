@@ -1,7 +1,7 @@
 #!/bin/bash
 
-FROM mychiara/base
-MAINTAINER Andy Ruck mychiara+docker@gmail.com
+FROM mychiara/base:1.0.1
+MAINTAINER Andy Ruck mychiara+docker  __at__  gmail.com
 
 RUN apt-get update && \
     apt-get install -yq redis-server && \
