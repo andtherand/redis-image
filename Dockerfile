@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FROM mychiara/base:1.0.2
+FROM mychiara/base:latest
 MAINTAINER Andy Ruck mychiara+docker  __at__  gmail.com
 
 RUN apt-get update && \
